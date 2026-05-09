@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="glow_discovery.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+
+<body> 
+    <div class="main-container"> 
+        <div class="header-content">
+                <h1>My Library</h1>
+                <div class="tab-filter">
+                    <a href="library.html" class="tab-button active">Library</a> 
+                    <a href="saved.html" class="tab-button">Saved</a> 
+                </div>
+        </div>
+    
+        <div class="section">
+            <div class="search-filter-container">
+
+                <form class="search-bar" role="search">
+                    <img src="images/search_icon.svg" alt="Search icon.">
+                    <input  type="text" inputmode="search" enterkeyhint="search" 
+                            placeholder="Search products or brands..."
+                            aria-label="Search products or brands">
+                    <button class="clear-button" aria-label="Clear search">
+                        <img src="images/cross_icon.svg" alt="Cross icon.">
+                    </button>
+                </form>
+
+                <a href="" class="filter-button" aria-label="Filter button.">
+                    <img src="images/filter_icon.svg" alt="Filter icon.">
+                </a>
+            </div>
+
+            <div class="library-results">
+                    <p class="results-count">14 Products</p>
+                    <a href="" class="sort-by-filter" aria-label="Sort by most recent filter">
+                        Most Recent <img src="images/down_arrow.svg" alt="Drop-down arrow icon.">
+                    </a>
+
+            </div>
+
+            <div class="products-section">
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/glossier_blush.webp" alt="Image of Glossier Cloud Paint Gel Cream Blush.">
+                    </div>
+
+                    <div class="product-content">
+                        <p class="brand-name">Glossier</p>
+                        <h3 class="truncate">Cloud Paint Gel Cream Blush</h3>
+                        <p class="product-type">Blush</p>
+
+                        <div class="product-tags"> 
+                            <div class="loved-tag">
+                                <p class="loved-tag-text">Loved</p>
+                            </div>
+
+                            <div class="rating-tag">
+                                <img src="images/star_icon.svg" alt="Star icon representing product rating.">
+                                <p class="tag-text">5</p>
+                            </div>
+
+                            <div class="repurchase-tag">
+                                <img src="images/small_repurchase_icon.svg" alt="Repurchase icon representing products you would repurchase.">
+                                <p class="tag-text">Repurchase</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/tower_sos.webp" alt="Image of Tower 28 SOS Rescue Spray.">
+                    </div>
+
+                    <div class="product-content">
+                        <p class="brand-name">Tower 28</p>
+                        <h3 class="truncate">SOS Rescue Spray</h3>
+                        <p class="product-type">Skincare</p>
+
+                        <div class="product-tags"> 
+                            <div class="liked-tag">
+                                <p class="liked-tag-text">Liked</p>
+                            </div>
+
+                            <div class="rating-tag">
+                                <img src="images/star_icon.svg" alt="Star icon representing product rating.">
+                                <p class="tag-text">4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/drunk_protini.webp" alt="Image of Drunk Elephant Protini Polypeptide Firming Moisturizer.">
+                    </div>
+
+                    <div class="product-content">
+                        <p class="brand-name">Drunk Elephant</p>
+                        <h3 class="truncate">Protini Polypeptide Firming Moisturizer</h3>
+                        <p class="product-type">Skincare</p>
+                        
+                        <div class="product-tags"> 
+                            <div class="neutral-tag">
+                                <p class="neutral-tag-text">Neutral</p>
+                            </div>
+
+                            <div class="rating-tag">
+                                <img src="images/star_icon.svg" alt="Star icon representing product rating.">
+                                <p class="tag-text">3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/mac_studio.avif" alt="Image of MAC Cosmetics Studio Fix Fluid SPF 15 24HR Matte Foundation + Oil Control.">
+                    </div>
+
+                    <div class="product-content">
+                        <p class="brand-name">MAC Cosmetics</p>
+                        <h3 class="truncate">Studio Fix Fluid SPF 15 24HR Matte Foundation + Oil Control</h3>
+                        <p class="product-type">Foundation</p>
+
+                        <div class="product-tags"> 
+                            <div class="never-tag">
+                                <p class="never-tag-text">Never Again</p>
+                            </div>
+
+                            <div class="rating-tag">
+                                <img src="images/star_icon.svg" alt="Star icon representing product rating.">
+                                <p class="tag-text">1</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/rhode_lip.webp" alt="Image of Rhode Peptide Lip Treatment Nourishing Glaze.">
+                    </div>
+
+                    <div class="product-content">
+                        <p class="brand-name">Rhode</p>
+                        <h3 class="truncate">Peptide Lip Treatment Nourishing Glaze</h3>
+                        <p class="product-type">Lip Care</p>
+
+                        <div class="product-tags"> 
+                            <div class="loved-tag">
+                                <p class="loved-tag-text">Loved</p>
+                            </div>
+
+                            <div class="rating-tag">
+                                <img src="images/star_icon.svg" alt="Star icon representing product rating.">
+                                <p class="tag-text">5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/sol_bum.webp" alt="Image of Sol de Janeiro Brazilian Bum Bum Cream.">
+                    </div>
+
+                    <div class="product-content">
+                        <p class="brand-name">Sol de Janeiro</p>
+                        <h3 class="truncate">Brazilian Bum Bum Cream</h3>
+                        <p class="product-type">Skincare</p>
+
+                        <div class="product-tags"> 
+                            <div class="liked-tag">
+                                <p class="liked-tag-text">Liked</p>
+                            </div>
+
+                            <div class="rating-tag">
+                                <img src="images/star_icon.svg" alt="Star icon representing product rating.">
+                                <p class="tag-text">4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/summer_lip.webp" alt="Image of Summer Fridays Lip Butter Balm.">
+                    </div>
+
+                    <div class="product-content">
+                        <p class="brand-name">Summer Fridays</p>
+                        <h3 class="truncate">Lip Butter Balm</h3>
+                        <p class="product-type">Lip Care</p>
+
+                        <div class="product-tags"> 
+                            <div class="loved-tag">
+                                <p class="loved-tag-text">Loved</p>
+                            </div>
+
+                            <div class="rating-tag">
+                                <img src="images/star_icon.svg" alt="Star icon representing product rating.">
+                                <p class="tag-text">5</p>
+                            </div>
+
+                            <div class="repurchase-tag">
+                                <img src="images/small_repurchase_icon.svg" alt="Repurchase icon representing products you would repurchase.">
+                                <p class="tag-text">Repurchase</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/sol_bum.webp" alt="Image of Sol de Janeiro Brazilian Bum Bum Cream.">
+                    </div>
+
+                    <div class="product-content">
+                        <p class="brand-name">Tatcha</p>
+                        <h3 class="truncate">The Dewy Skin Cream</h3>
+                        <p class="product-type">Skincare</p>
+
+                        <div class="product-tags"> 
+                            <div class="disliked-tag">
+                                <p class="disliked-tag-text">Disliked</p>
+                            </div>
+
+                            <div class="rating-tag">
+                                <img src="images/star_icon.svg" alt="Star icon representing product rating.">
+                                <p class="tag-text">2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/rare_blush.webp" alt="Image of Rare Beauty Soft Pinch Liquid Blush.">
+                    </div>
+
+                    <div class="product-content">
+                        <p class="brand-name">Rare Beauty</p>
+                        <h3 class="truncate">Soft Pinch Liquid Blush</h3>
+                        <p class="product-type">Blush</p>
+
+                        <div class="product-tags"> 
+                            <div class="loved-tag">
+                                <p class="loved-tag-text">Loved</p>
+                            </div>
+
+                            <div class="rating-tag">
+                                <img src="images/star_icon.svg" alt="Star icon representing product rating.">
+                                <p class="tag-text">5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/saie_tint.webp" alt="Image of Saie Slip Tint.">
+                    </div>
+
+                    <div class="product-content">
+                        <p class="brand-name">Saie</p>
+                        <h3 class="truncate">Slip Tint</h3>
+                        <p class="product-type">Foundation</p>
+
+                        <div class="product-tags"> 
+                            <div class="liked-tag">
+                                <p class="liked-tag-text">Liked</p>
+                            </div>
+
+                            <div class="rating-tag">
+                                <img src="images/star_icon.svg" alt="Star icon representing product rating.">
+                                <p class="tag-text">4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/charlotte_pillow.webp" alt="Image of Charlotte Tilbury Pillow Talk Lipstick.">
+                    </div>
+
+                    <div class="product-content">
+                        <p class="brand-name">Charlotte Tilbury</p>
+                        <h3 class="truncate">Pillow Talk Lipstick</h3>
+                        <p class="product-type">Lipstick</p>
+
+                        <div class="product-tags"> 
+                            <div class="loved-tag">
+                                <p class="loved-tag-text">Loved</p>
+                            </div>
+
+                            <div class="rating-tag">
+                                <img src="images/star_icon.svg" alt="Star icon representing product rating.">
+                                <p class="tag-text">5</p>
+                            </div>
+
+                            <div class="repurchase-tag">
+                                <img src="images/small_repurchase_icon.svg" alt="Repurchase icon representing products you would repurchase.">
+                                <p class="tag-text">Repurchase</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/byredo_gypsy.webp" alt="Image of Byredo Gypsy Water.">
+                    </div>
+
+                    <div class="product-content">
+                        <p class="brand-name">Byredo</p>
+                        <h3 class="truncate">Gypsy Water</h3>
+                        <p class="product-type">Fragrance</p>
+
+                        <div class="product-tags"> 
+                            <div class="disliked-tag">
+                                <p class="disliked-tag-text">Disliked</p>
+                            </div>
+
+                            <div class="rating-tag">
+                                <img src="images/star_icon.svg" alt="Star icon representing product rating.">
+                                <p class="tag-text">2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/olaplex_hair.webp" alt="Image of Olaplex No. 3 Plus Complete Repair Treatment.">
+                    </div>
+
+                    <div class="product-content">
+                        <p class="brand-name">Olaplex</p>
+                        <h3 class="truncate">No. 3 Plus Complete Repair Treatment</h3>
+                        <p class="product-type">Haircare</p>
+
+                        <div class="product-tags"> 
+                            <div class="loved-tag">
+                                <p class="loved-tag-text">Loved</p>
+                            </div>
+
+                            <div class="rating-tag">
+                                <img src="images/star_icon.svg" alt="Star icon representing product rating.">
+                                <p class="tag-text">5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/lelabo_santal.jpg" alt="Image of Le Labo Santal 33.">
+                    </div>
+
+                    <div class="product-content">
+                        <p class="brand-name">Le Labo</p>
+                        <h3 class="truncate">Santal 33</h3>
+                        <p class="product-type">Fragrance</p>
+
+                        <div class="product-tags"> 
+                            <div class="loved-tag">
+                                <p class="loved-tag-text">Loved</p>
+                            </div>
+
+                            <div class="rating-tag">
+                                <img src="images/star_icon.svg" alt="Star icon representing product rating.">
+                                <p class="tag-text">5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="nav-bar"> 
+            <nav>
+                <a href="home.html" class="nav-button"><img src="images/home_icon.svg" alt="Home button icon.">Home</a>
+                <a href="library.html" class="nav-button selected"><img src="images/library_selected_icon.svg" alt="Library button icon.">Library</a>
+                <a href="" class="add-button">
+                    <img src="images/add_icon.svg"  alt="Add product button.">
+                Add</a>
+                <a href="insights.html" class="nav-button"><img src="images/insights_icon.svg" alt="Insights button icon.">Insights</a>
+                <a href="" class="nav-button"><img src="images/profile_icon.svg" alt="Profile button icon.">Profile</a>
+            </nav>
+        </div>
+    </div>
+
+</body>
+</html>
