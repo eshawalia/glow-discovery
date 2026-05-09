@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="glow_discovery.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+
+<body class="gradient-bg">
+    <div class="main-container"> 
+        <div class="header-content-login">
+            <img class="logo" src="images/glow_discovery_logo.svg" alt="Glow Discovery logo.">
+            <div class="header-text">
+                <h1>GlowDiscovery</h1>
+                <p class="body-1-reg">Your personalized beauty product companion</p>
+            </div>
+
+             <div class="tab-filter">
+                <a href="login.html" class="tab-button">Log In</a> 
+                <a href="signup.html" class="tab-button active">Sign Up</a> 
+            </div>
+        </div>
+
+        <div class="section">
+
+            <div class="login-signup-card">
+
+                <form id="signup" novalidate>
+                    <div class="login-field">
+                        <label for="name">Name</label>
+                        <div class="message" id="message-name"></div>
+                        <div class="login-input">
+                            <img src="images/name_icon.svg">
+                            <input type="text" id="name" placeholder="Enter your name" required>
+                        </div>
+                    </div>
+
+                    <div class="login-field">
+                        <label for="email">Email</label>
+                        <div class="message" id="message-email"></div>
+                        <div class="login-input">
+                            <img src="images/email_icon.svg">
+                            <input type="email" id="email" name="email" enterkeyhint="next" placeholder="your@gmail.com" required>
+                        </div> 
+                    </div>   
+
+                    <div class="login-field">
+                        <label for="password">Password</label>
+                        <div class="message" id="message-password"></div>
+                        <div class="login-input">
+                            <img src="images/password_icon.svg">
+                            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                            <img src="images/closed_eye_icon.svg">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="big-pink-button">Sign Up</button>
+                </form>
+
+                <hr class="divider"> 
+
+                <div class="login-description">
+                    <p class="body-2-reg">Already have an account? 
+                        <a href="signup.html" class="pink-link-text">Log In</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="glow_discovery.js"></script>
+</body>
+
+</html>
